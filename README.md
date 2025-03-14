@@ -1,8 +1,10 @@
 # OT-Map Scanner
 
-OT-Map is a minimally invasive network scanner designed specifically for operational technology (OT) environments. It identifies Siemens and Allen-Bradley devices within your network and provides detailed information about each discovered device.
+OT-Map is a minimally invasive network scanner designed for operational technology (OT) environments. It detects Siemens and Allen-Bradley devices within your network and provides detailed information about each discovered device.
 
-The scanner also includes an integrated vulnerability scanning capability, currently supporting Siemens devices.
+Additionally, OT-Map includes an integrated vulnerability scanning feature, currently supporting Siemens devices.
+
+⚠️ Use with caution in production environments.
 
 ---
 
@@ -48,7 +50,7 @@ python main.py 192.168.0.0/24 --output json results.json [options]
 
 - **`--output`**: Save results to a file. Specify file type (`json` or `csv`) and file path. 
   ```bash
-  python main.py 192.168.0.0/24 --output json results.json
+  python main.py 192.168.0.0/24 --output csv results.csv
   ```
 
 - **`--debug`**: Enables verbose output for troubleshooting.
