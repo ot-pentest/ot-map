@@ -1,0 +1,1 @@
+def get_new_host_id(hosts: dict) -> int: return len(hosts)

@@ -1,0 +1,8 @@
+pyasn1
+python-nmap
+python-snap7
+scrapy
+pysnmp
+pylogix
+pycomm3
+

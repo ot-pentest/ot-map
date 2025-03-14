@@ -1,0 +1,20 @@
+module_info = {
+  "name": "Module Name",
+  "version": 0.1,
+  "output": "hosts",
+  "otscanner": {
+    "version": 0.1
+  }
+}
+
+def run(module_import: object) -> dict:
+  # Run once for all
+  return main(module_import)
+
+  # Run once per Host
+  for host_id in module_import.hosts:
+    main(module_import.hosts[host_id])
+  return module_import.hosts
+
+def main(module_import: object) -> dict:
+  return
