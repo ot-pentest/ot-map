@@ -100,9 +100,10 @@ Then add a corresponding entry to the JSON file as shown above.
 ---
 
 ## TODO:
-Automatic download of advisories.atom
-See all cards in the rack and get info
-Get more devices info from Beckhoff, Schneider and more
+[ ] Automatic download of advisories.atom
+[ ] See all cards in the rack and get info
+[ ] Get more devices info from Beckhoff, Schneider and more
+[ ] Refinement of storage backend by making it classbased to improve resiliency
 
 ---
 
